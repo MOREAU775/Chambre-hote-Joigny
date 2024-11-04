@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Chambres d'Hôtes</title>
+    <link rel="stylesheet" href="../css/Chambre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans nos Chambres d'Hôtes</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../Chambres/Grande-Chambre.html">Nos Chambres</a></li>
+                <li><a href="../Réservation/réservation.html">Contact/Réservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="reservations">
+            <h2>Réservez votre séjour</h2>
+            <div class="chambre">
+                <h2>Grande Chambre Confortable avec Lit Queen Size</h2>
+                <h4>Prix : 100€/nuit (peut varier selon les périodes)</h4>
+                <section id="details-chambre">
+                    
+                    <p>Cette chambre spacieuse est idéale pour un séjour confortable et relaxant. Elle est équipée d'un lit queen size pour des nuits paisibles, d'une salle de bain privative moderne, ainsi que d'un espace kitchenette pratique avec un réfrigérateur pour préparer des repas légers.</p>
+                    <p>Vous pourrez également profiter d'un espace détente avec un canapé-lit BZ, parfait pour des moments de relaxation ou pour accueillir des invités supplémentaires. Une télévision et connexion Wi-Fi haut débit sont à votre disposition pour vos loisirs et besoins professionnels.</p>
+                    <p>Que vous soyez en vacances ou en voyage d'affaires, cette chambre allie confort et commodité pour un séjour agréable.</p>
+                </section>
+                <div class="icons">
+                    <i class="fas fa-wifi"></i> Wi-Fi
+                    <i class="fas fa-bed"></i> 1 Lit Queen Size
+                    <i class="fas fa-tv"></i> Télévision
+                    <i class="fas fa-bath"></i> Salle de Bain
+                    <i class="fas fa-utensils"></i> Cuisine
+                </div>
+                
+                <img src="../Image/Grande1.png" alt="Grande Chambre" class="chambre-photo">
+                <button class="styled-button" onclick="openModal('modal1')">Voir les autres photos</button>
+                
+                <div id="modal1" class="modal">
+                    <span class="close" onclick="closeModal('modal1')">×</span>
+                    <div class="modal-content">
+                        <div class="mySlides1">
+                            <img src="../Image/Grande1.png" alt="Grande Chambre" class="modal-photo">
+                        </div>
+                        <div class="mySlides1">
+                            <img src="../Image/Guedelon.jpeg" alt="Grande Chambre" class="modal-photo">
+                        </div>
+                        <div class="mySlides1">
+                            <img src="../Image/Famille.jpeg" alt="Grande Chambre" class="modal-photo">
+                        </div>
+                        <a class="prev" onclick="plusSlides(1, -1)">❮</a>
+                        <a class="next" onclick="plusSlides(1, 1)">❯</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <div class="airbnb-embed-frame" data-id="10581707" data-view="home" data-hide-price="true" style="width: 450px; height: 300px; margin: auto;">
+            <a href="https://www.airbnb.fr/rooms/10581707?check_in=2024-11-12&check_out=2024-11-15&guests=1&adults=1&s=66&source=embed_widget">Voir sur Airbnb</a>
+            <a href="https://www.airbnb.fr/rooms/10581707?check_in=2024-11-12&check_out=2024-11-15&guests=1&adults=1&s=66&source=embed_widget" rel="nofollow">Appartement · Béon · ★4,75 · 1 chambre · 1 lit · 1 salle de bain</a>
+            <script async="" src="https://www.airbnb.fr/embeddable/airbnb_jssdk"></script>
+        </div>
+        <section id="reservations">
+            <h2>Réservez votre séjour</h2>
+            <div class="chambre">
+                <h2>Petite Chambre Confortable avec Lit Double</h2>
+                <h4>Prix : 50€/nuit (peut varier selon les periodes)</h4>
+                <section id="details-chambre">
+                    
+                    <p>Cette chambre cosy est parfaite pour un séjour agréable et économique. Elle est équipée d'un lit double confortable, d'une salle de bain privative moderne, et d'un petit espace de travail avec un bureau. Vous pourrez également profiter d'une connexion Wi-Fi gratuite et d'une télévision pour vos moments de détente. Un petit-déjeuner continental est inclus dans le prix de la chambre, servi chaque matin dans notre salle à manger. Que vous soyez en vacances ou en déplacement professionnel, cette chambre offre tout le nécessaire pour un séjour confortable.</p>
+                </section>
+                <div class="icons">
+                    <i class="fas fa-wifi"></i> Wi-Fi
+                    <i class="fas fa-bed"></i> 1 Lit Double
+                    <i class="fas fa-tv"></i> Télévision
+                    <i class="fas fa-bath"></i> Salle de Bain
+                </div>
+                <img src="../Image/Petite1.png" alt="Petite Chambre" class="chambre-photo">
+                <button class="styled-button" onclick="openModal('modal2')">Voir les autres photos</button>
+                <div id="modal2" class="modal">
+                    <span class="close" onclick="closeModal('modal2')">×</span>
+                    <div class="modal-content">
+                        <div class="mySlides2">
+                            <img src="../Image/Petite1.png" alt="Petite Chambre" class="modal-photo">
+                        </div>
+                        <div class="mySlides2">
+                            <img src="../Image/Guedelon.jpeg" alt="Petite Chambre" class="modal-photo">
+                        </div>
+                        <div class="mySlides2">
+                            <img src="../Image/Famille.jpeg" alt="Petite Chambre" class="modal-photo">
+                        </div>
+                        <a class="prev" onclick="plusSlides(2, -1)">❮</a>
+                        <a class="next" onclick="plusSlides(2, 1)">❯</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <div class="airbnb-embed-frame" data-id="36742571" data-view="home" data-hide-price="true" style="width: 450px; height: 300px; margin: auto;">
+            <a href="https://www.airbnb.fr/rooms/36742571?check_in=2024-11-12&check_out=2024-11-15&guests=1&adults=1&s=66&source=embed_widget">Voir sur Airbnb</a>
+            <a href="https://www.airbnb.fr/rooms/36742571?check_in=2024-11-12&check_out=2024-11-15&guests=1&adults=1&s=66&source=embed_widget" rel="nofollow">Maison d'hôtes · Béon · ★4,88 · Studio · 2 lits · 1 salle de bain partagée</a>
+            <script async="" src="https://www.airbnb.fr/embeddable/airbnb_jssdk"></script>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Chambres d'Hôtes</p>
+    </footer>
+    <script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+
+    let slideIndex1 = 1;
+    let slideIndex2 = 1;
+    showSlides(1, slideIndex1);
+    showSlides(2, slideIndex2);
+
+    function plusSlides(carrousel, n) {
+        if (carrousel === 1) {
+            showSlides(1, slideIndex1 += n);
+        } else {
+            showSlides(2, slideIndex2 += n);
+        }
+    }
+
+    function currentSlide(carrousel, n) {
+        if (carrousel === 1) {
+            showSlides(1, slideIndex1 = n);
+        } else {
+            showSlides(2, slideIndex2 = n);
+        }
+    }
+
+    function showSlides(carrousel, n) {
+        let i;
+        let slides, dots;
+        if (carrousel === 1) {
+            slides = document.getElementsByClassName("mySlides1");
+            dots = document.getElementsByClassName("dot1");
+        } else {
+            slides = document.getElementsByClassName("mySlides2");
+            dots = document.getElementsByClassName("dot2");
+        }
+        if (n > slides.length) { n = 1 }
+        if (n < 1) { n = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[n-1].style.display = "block";
+        dots[n-1].className += " active";
+    }
+</script>
+</body>
+</html>
