@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site de Chambres d'Hôtes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans nos Chambres d'Hôtes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Chambres/Grande-Chambre.html">Nos Chambres</a></li>
+                 <!--<li><a href="Chambres/Petite-Chambre.html">Petite Chambre</a></li>-->
+                <li><a href="Contact/réservation.html">Contact/Réservations</a></li>
+                <!--<li><a href="Contact/contact.html">Contact</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="description">
+            <h2>À propos de la Famille Moreau</h2>
+            <div class="description-container">
+                <div class="description-text">
+                    <p><i class="fas fa-home"></i> La famille Moreau vous accueille chaleureusement dans leurs chambres d'hôtes situées dans un ancien corps de ferme. Idéal pour un week-end en famille, le lieu dispose d'un parking privé et offre un cadre paisible et authentique.</p>
+                    <p><i class="fas fa-child"></i> Les enfants adoreront rencontrer le poney et les poules de la ferme. La famille Moreau, proche des producteurs locaux, peut facilement mettre en relation les clients avec des producteurs de miel et de viande de cerf.</p>
+                    <p><i class="fas fa-utensils"></i> Evelyne, l'hôtesse d'accueil, est une ancienne professeure de cuisine. Elle peut préparer des repas sur demande et propose également ses créations de couture à la vente, permettant aux hôtes de découvrir et d'acheter des pièces uniques.</p>
+                </div>
+            </div>
+        </section>
+        <section id="bienvenue">
+            
+            <img src="Image/Famille.jpeg" alt="Photo de famille" class="photo-famille">
+        </section>
+        
+        <section id="atouts">
+            <h2>Atouts et Activités autour de Béon</h2>
+            <div class="activities-container">
+                <ul>
+                    <li><i class="fas fa-landmark"></i> <strong>Visite de Guédelon :</strong> À seulement 30 minutes, découvrez ce château médiéval en construction, un projet unique et fascinant.</li>
+                    <li><i class="fas fa-city"></i> <strong>Joigny :</strong> Explorez cette charmante ville avec ses maisons à colombages, ses marchés locaux et ses restaurants gastronomiques.</li>
+                    <li><i class="fas fa-hiking"></i> <strong>Randonnées et VTT :</strong> Profitez des nombreux sentiers de randonnée et pistes cyclables autour de Béon, idéals pour les amateurs de nature et de sport.</li>
+                    <li><i class="fas fa-wine-bottle"></i> <strong>Vignobles du Bugey :</strong> Dégustez des vins locaux dans les vignobles environnants, célèbres pour leurs crus AOC.</li>
+                    <li><i class="fas fa-leaf"></i> <strong>Réserve Naturelle du Marais de Lavours :</strong> Observez la faune et la flore locales dans cette réserve naturelle protégée.</li>
+                    <li><i class="fas fa-water"></i> <strong>Activités nautiques :</strong> Faites du canoë, du kayak ou de la pêche sur les rivières et lacs à proximité.</li>
+                    <li><i class="fas fa-archway"></i> <strong>Patrimoine historique :</strong> Visitez les ruines du château de Luyrieu et d'autres sites historiques de la région.</li>
+                </ul>
+                <div class="activity-image">
+                    <img src="Image/Guedelon.jpeg" alt="Activités autour de Béon">
+
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="temoignages">
+            <h2>Témoignages</h2>
+            <blockquote>
+                <p>"Un séjour merveilleux dans un cadre magnifique. Nous reviendrons certainement!"</p>
+                <cite>- Marie et Jean</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Des hôtes accueillants et des chambres confortables. Parfait pour un week-end de détente."</p>
+                <cite>- Sophie et Paul</cite>
+            </blockquote>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>À propos</h3>
+                <p>Découvrez nos chambres d'hôtes situées à Béon, offrant un cadre paisible et de nombreuses activités à proximité.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="Chambres/Grande-Chambre.html">Nos Chambres</a></li>
+                    
+                    <li><a href="Contact/réservation.html">Contact/Réservations</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Contactez-nous</h3>
+                <UL>
+                    <li><i class="fas fa-phone"></i> <strong>Téléphone :</strong> +33 3 86 73 47 44</li>
+                    <li><i class="fas fa-envelope"></i> <strong>Email :</strong> aubelair@wanadoo.fr</li>
+                    <li><i class="fas fa-map-marker-alt"></i> <strong>Adresse :</strong> 8 chemin de Bel Air, 89410 Béon, France</li>
+                </UL>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Chambres d'Hôtes | Designed by François MOREAU</p>
+        </div>
+    </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
